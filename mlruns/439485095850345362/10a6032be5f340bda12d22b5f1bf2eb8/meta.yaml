@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/10a6032be5f340bda12d22b5f1bf2eb8/artifacts
+end_time: 1792507661842
+entry_point_name: ''
+experiment_id: '439485095850345362'
+lifecycle_stage: active
+run_id: 10a6032be5f340bda12d22b5f1bf2eb8
+run_name: powerful-crane-835
+run_uuid: 10a6032be5f340bda12d22b5f1bf2eb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792507659411
+status: 3
+tags: []
+user_id: dineshreddy

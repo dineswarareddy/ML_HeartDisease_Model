@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1792503743467
+current_stage: None
+description: null
+last_updated_timestamp: 1792503743467
+name: Logistic_Regression
+run_id: 6d583c2e046e4702a4492106bc1462bc
+run_link: null
+source: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/6d583c2e046e4702a4492106bc1462bc/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/6d583c2e046e4702a4492106bc1462bc/artifacts/model
+user_id: null
+version: 3

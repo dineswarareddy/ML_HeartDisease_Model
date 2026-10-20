@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/350f720466934a3fb851692d35edd44c/artifacts
+end_time: 1792512978557
+entry_point_name: ''
+experiment_id: '439485095850345362'
+lifecycle_stage: active
+run_id: 350f720466934a3fb851692d35edd44c
+run_name: Random_Forest
+run_uuid: 350f720466934a3fb851692d35edd44c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792512975802
+status: 3
+tags: []
+user_id: dineshreddy

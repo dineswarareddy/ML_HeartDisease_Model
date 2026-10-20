@@ -1,0 +1,6 @@
+artifact_location: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362
+creation_time: 1792484826002
+experiment_id: '439485095850345362'
+last_update_time: 1792484826002
+lifecycle_stage: active
+name: Heart_Disease_Prediction_Experiment

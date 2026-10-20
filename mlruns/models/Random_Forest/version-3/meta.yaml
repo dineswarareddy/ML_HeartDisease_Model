@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1792503746561
+current_stage: None
+description: null
+last_updated_timestamp: 1792503746561
+name: Random_Forest
+run_id: d00fd718b28d457cbc31c3b3b3739c36
+run_link: null
+source: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/d00fd718b28d457cbc31c3b3b3739c36/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/d00fd718b28d457cbc31c3b3b3739c36/artifacts/model
+user_id: null
+version: 3

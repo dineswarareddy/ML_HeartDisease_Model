@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1792507661839
+current_stage: None
+description: null
+last_updated_timestamp: 1792507661839
+name: HeartDiseaseProductionModel
+run_id: 10a6032be5f340bda12d22b5f1bf2eb8
+run_link: null
+source: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/10a6032be5f340bda12d22b5f1bf2eb8/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/10a6032be5f340bda12d22b5f1bf2eb8/artifacts/model
+user_id: null
+version: 2

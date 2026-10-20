@@ -21,12 +21,10 @@ def fetch_and_clean_data(output_dir="data"):
     raw_df.to_csv(f"{output_dir}/raw/heart_raw.csv", index=False)
 
     # 2. Binary target conversion: UCI target is 0 (healthy) or 1..4 (disease)
-    # Binary classification: 0 = Absence, 1 = Presence
     target_series = y.iloc[:, 0].apply(lambda val: 1 if val > 0 else 0)
     df = pd.concat([X, target_series.rename(TARGET_COL)], axis=1)
 
     # 3. Clean and handle missing values
-    # Convert potential string representations of nulls to NaN
     df = df.replace("?", pd.NA)
 
     for col in NUMERICAL_FEATURES:
@@ -37,6 +35,13 @@ def fetch_and_clean_data(output_dir="data"):
         df[col] = pd.to_numeric(df[col], errors="coerce")
         df[col] = df[col].fillna(df[col].mode()[0])
 
+    # Cast discrete columns to int for strict schema consistency
+    int_cols = CATEGORICAL_FEATURES + [TARGET_COL]
+    df[int_cols] = df[int_cols].astype(int)
+
+    # Satisfy Assignment Task 1: export full cleaned dataset
+    df.to_csv(f"{output_dir}/processed/heart_cleaned.csv", index=False)
+
     # 4. Train / Test Split
     train_df, test_df = train_test_split(
         df, test_size=0.2, random_state=42, stratify=df[TARGET_COL]
@@ -44,7 +49,9 @@ def fetch_and_clean_data(output_dir="data"):
 
     train_df.to_csv(f"{output_dir}/processed/train.csv", index=False)
     test_df.to_csv(f"{output_dir}/processed/test.csv", index=False)
-    print(f"Data processed successfully. Train: {len(train_df)}, Test: {len(test_df)}")
+    print(f"Data processed successfully.")
+    print(f"Full cleaned dataset: {len(df)} rows -> {output_dir}/processed/heart_cleaned.csv")
+    print(f"Train set: {len(train_df)} rows | Test set: {len(test_df)} rows")
 
 if __name__ == "__main__":
     fetch_and_clean_data()

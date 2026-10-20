@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/4e529dc340344d98b34de3d250bd8819/artifacts
+end_time: 1792512981176
+entry_point_name: ''
+experiment_id: '439485095850345362'
+lifecycle_stage: active
+run_id: 4e529dc340344d98b34de3d250bd8819
+run_name: gifted-bass-483
+run_uuid: 4e529dc340344d98b34de3d250bd8819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792512978565
+status: 3
+tags: []
+user_id: dineshreddy

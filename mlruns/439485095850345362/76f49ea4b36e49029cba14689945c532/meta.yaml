@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/76f49ea4b36e49029cba14689945c532/artifacts
+end_time: 1792503809107
+entry_point_name: ''
+experiment_id: '439485095850345362'
+lifecycle_stage: active
+run_id: 76f49ea4b36e49029cba14689945c532
+run_name: popular-trout-921
+run_uuid: 76f49ea4b36e49029cba14689945c532
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792503806641
+status: 3
+tags: []
+user_id: dineshreddy

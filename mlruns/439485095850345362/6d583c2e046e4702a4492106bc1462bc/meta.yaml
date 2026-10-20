@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dineshreddy/ML_HeartDisease_Model/mlruns/439485095850345362/6d583c2e046e4702a4492106bc1462bc/artifacts
+end_time: 1792503743470
+entry_point_name: ''
+experiment_id: '439485095850345362'
+lifecycle_stage: active
+run_id: 6d583c2e046e4702a4492106bc1462bc
+run_name: Logistic_Regression
+run_uuid: 6d583c2e046e4702a4492106bc1462bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792503740750
+status: 3
+tags: []
+user_id: dineshreddy
